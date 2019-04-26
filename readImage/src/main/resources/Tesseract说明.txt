@@ -1,0 +1,39 @@
+#####################################################Tesseract方法#####################################################
+官方文档api地址：http://tess4j.sourceforge.net/docs/docs-3.4/
+
+void	createDocuments(String[] filenames, String[] outputbases, List<ITesseract.RenderedFormat> formats)
+Creates documents for given renderers.
+void	createDocuments(String filename, String outputbase, List<ITesseract.RenderedFormat> formats)
+Creates documents for given renderers.
+String	doOCR(BufferedImage bi)
+Performs OCR operation.
+String	doOCR(BufferedImage bi, Rectangle rect)
+Performs OCR operation.
+String	doOCR(File imageFile)
+Performs OCR operation.
+String	doOCR(File imageFile, Rectangle rect)
+Performs OCR operation.
+String	doOCR(int xsize, int ysize, ByteBuffer buf, Rectangle rect, int bpp)
+Performs OCR operation.
+String	doOCR(int xsize, int ysize, ByteBuffer buf, String filename, Rectangle rect, int bpp)
+Performs OCR operation.
+String	doOCR(List<IIOImage> imageList, Rectangle rect)
+Performs OCR operation.
+String	doOCR(List<IIOImage> imageList, String filename, Rectangle rect)
+Performs OCR operation.
+List<Rectangle>	getSegmentedRegions(BufferedImage bi, int pageIteratorLevel)
+Gets segmented regions at specified page iterator level.
+List<Word>	getWords(BufferedImage bi, int pageIteratorLevel)
+Gets recognized words at specified page iterator level.
+void	setConfigs(List<String> configs)
+Sets configs to be passed to Tesseract's Init method.
+void	setDatapath(String datapath)
+Sets tessdata path.
+void	setLanguage(String language)
+Sets language for OCR.
+void	setOcrEngineMode(int ocrEngineMode)
+Sets OCR engine mode.
+void	setPageSegMode(int mode)
+Sets page segmentation mode.
+void	setTessVariable(String key, String value)
+Sets the value of Tesseract's internal parameter.
