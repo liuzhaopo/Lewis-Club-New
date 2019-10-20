@@ -1,4 +1,6 @@
 ## 前言 
+![](https://img.shields.io/badge/author-会打篮球的程序猿-red)
+![](https://img.shields.io/badge/license-GPL%20v3-success.svg)
 这是一个学习案例，看最后一张图，识别率应该有90%以上吧！
 ### 提高识别度
 
